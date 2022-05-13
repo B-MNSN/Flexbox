@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 1px solid black;
+}
+.logo{
+    width: 10%;
+    text-align: center;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+.navi>div{
+    background-color: gray;
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu>div{
+    margin: 5px;
+    padding: 5px;
+    background-color: darkgray;
+}
+.about-me{
+    display: flex;
+}
+.about-me>div{
+    margin: 30px 50px;
+    padding: 100px;
+    background-color: gray;
+}
+.species{
+    display: flex;
+    flex-direction: column;
+}
+.species>div{
+    margin:25px;
+    text-align: center;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.img>div{
+    margin: 25px;
+    padding: 100px;
+    background-color: gray;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+}
+.shop>div{
+    margin: 30px;
+}
+.content-shop{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.content-shop>div{
+    margin: 20px;
+    width: 30%;
+    background-color: gray;
+}
+.inform>div{
+    margin: 20px;
+    padding: 10px;
+    background-color: darkgray;
+}
