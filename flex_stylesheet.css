@@ -1,6 +1,7 @@
 .flex-container{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-around;
 }
 .inline-flex-container{
     display: inline-flex;
@@ -29,11 +30,13 @@
 }
 .d1{
     order: 1;
+    flex-basis: 200px;
 }
 .d2{
     order: 3;
+    flex-basis: 100px;
 }
 .d3{
     order: 2;
-    flex-shrink: 4;
+    flex-basis: 100px;
 }
