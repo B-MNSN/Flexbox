@@ -75,3 +75,7 @@ div{
     padding: 10px;
     background-color: darkgray;
 }
+.button{
+    width: 30%;
+    float: right;
+}
