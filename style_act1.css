@@ -10,20 +10,21 @@ div{
     background-color: gray;
     margin: 10px;
     padding: 5px;
+    flex-basis: 50px;
 }
 .flex-colum{
     display: flex;
+}
+.flex-colum>div{
+    width: 100%;
 }
 .colum{
     display: flex;
     flex-flow: column;
     align-items: center;
-    flex-basis: 200px;
+    flex-basis: 300px;
 }
-.flex-colum>div{
-    width: 100%;
-}
-.inform{
+.colum>div{
     margin: 15px;
     background-color: gray;
     width: 40%;
